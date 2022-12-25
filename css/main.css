@@ -1,0 +1,154 @@
+body {
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+ul {
+   padding: 0px!important; 
+}
+.menu-principal {
+width: 100%;
+background-color: #383737;
+height: 60px;
+}
+main, .content {
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+
+.redes-sociais ul li {
+margin-left: 25px;
+display: inline-block;
+
+list-style: none;
+}
+.redes-sociais {
+width: 25%;
+float: right;
+}
+.header-2 {
+background-color: #ffffff;
+width: 100%;
+margin: 0 auto;
+padding: 16px;
+}
+.menu-urls {
+height: 80px;
+border-bottom: 3px solid #efefef;
+background-color: white;
+}
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+    background-color:white;
+}
+
+.texto-destaque {
+    text-align: right;
+}   
+.texto-destaque strong {
+    color: #1f1d1d;
+}
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+    text-align: center;
+}
+.texto-destaque p {
+    font-size: 15px;
+    color: #110606;
+}
+
+.col-1 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 15%;
+    float: left;
+    position: relative;
+    background-color:rgb(59, 163, 161);
+}
+.col-3 {
+    text-align: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px; 
+    width: 70%;
+    float: left;
+    position: relative;
+    background-color:White;
+}
+.col-3 li{
+    list-style-type: none;
+    line-height: 150%;
+    text-align: left
+}
+
+.col-3 img {
+    border-radius: 50%;
+    height: 300px;
+}
+
+table, tr, td, th {
+    border-color: white;
+    border-width: 20px;
+    border-style: solid;
+    width: 900px;
+    height: 200px;
+    /*background-color: red;*/
+}
+.cinza-escuro {
+    background-color: rgb(229, 226, 226);
+    width: 30%;
+    text-align: center;
+}
+
+.footer h3 {
+    text-align: left;
+    background-color: aqua;
+}
+
+.footer-2 {
+    background-color: #110606;
+    color: #c1c1c1;
+    height: 35px;
+    bottom:0;
+    position:fixed;
+}
+
+.footer p {
+    width: 100%;
+    text-align: left;
+    background-color:aquamarine;
+}
+
+#mapDIV{
+    height: 400px;
+    width: 100%;
+    align-items: right;
+    border: solid 1px black;
+}
+
+
+
